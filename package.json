@@ -1,0 +1,17 @@
+{
+  "name": "ainetools",
+  "version": "1.1.0",
+  "description": "JS 实用库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "TineAine",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.3"
+  }
+}
