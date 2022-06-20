@@ -11,6 +11,24 @@ function isEmail(value) {
 function isPhoneNumber(value) {
 	return /^1[3-9]\d{9}$/.test(value)
 }
+/**
+ * 验证是否为中国移动手机格式
+ */
+function isMobilePhoneNumber(value) {
+	return /^134[0-8]\\d{7}$|^(?:13[5-9]|147|15[0-27-9]|178|18[2-478])\\d{8}$/.test(value)
+}
+/**
+ * 验证中国电信手机格式
+ */
+function isTelecomPhoneNumber(value) {
+	return /^(?:133|153|177|18[019])\\d{8}$/.test(value)
+}
+/**
+ * 验证中国联通手机格式
+ */
+function isUnicomPhoneNumber(value) {
+	return /^(?:13[0-2]|145|15[56]|176|18[56])\\d{8}$/.test(value)
+}
 
 /**
  * 验证URL格式
@@ -227,5 +245,8 @@ export default {
 	isLandline,
 	isObject,
 	isArray,
-	isCode
+	isCode,
+	isMobilePhoneNumber,
+	isTelecomPhoneNumber,
+	isUnicomPhoneNumber,
 }
