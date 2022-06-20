@@ -1,7 +1,7 @@
 {
-  "name": "tinetools",
-  "version": "1.0.0",
-  "description": "JS 实用库",
+  "name": "ainetools",
+  "version": "1.1.2",
+  "description": "适用于Vue的功能封装库，当前仅为测试版本，谨慎用于生产环境",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
