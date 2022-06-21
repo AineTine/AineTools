@@ -1,15 +1,17 @@
-# Tine Tools Readme
+# Aine Tools Readme
 
 > 作者: Tine Aine
-> 更新时间: 2022-06-17
+> 更新时间: 2022-06-21
 > 开源协议: MIT
+
+
 
 ## 安装
 
 ### 通过 `NPM` 安装
 
 ```shell
-npm i tinetools
+npm i ainetools
 ```
 
 ### 在 `Vue` 中安装（注册）
@@ -26,19 +28,15 @@ console.log("是否为一个数字 -------->",this.$tools.test.isNumber("123"));
 console.log("是否为一个数字 -------->",this.$tools.test.isNumber("xyz"));
 ```
 
-## 代码结构
+## 项目结构
 
-### $tools
-
-> `[browser]`代表可以在`浏览器`中使用，`[node]`代表可以在`node`中使用，`[code]`代表可以在`vs code`插件中使用，`[electron]`代表可以在`Electron`中使用
-> (*) 代表部分可用，具体差异请参照 `接口差异表`
-
-#### flow [browser(*),node,code,electron] 
-#### file [node,code,electron]
-#### net [browser(*),node,code,electron]
-#### test [browser,node,code,electron]
-#### ui [browser(*),node,code,electron]
-#### sys [browser(*),node,code,electron]
+- [data] 				数据文件
+	- area.js			全国县级市/区数据（如黄岛区）
+	- city.js			全国地级城市（如青岛市）
+	- province.js		全国省/直辖市（如山东省）
+- [tools] 				工具代码
+	- 
+- index.js				入口类
 
 ## 部分代码源
 
